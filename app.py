@@ -419,11 +419,9 @@ NON_SARCASTIC_EXAMPLES = [
     "City announces plans for new public park",
     "Research shows benefits of daily exercise"
 ]
-
 # ============================================================================
 # MAIN APPLICATION
 # ============================================================================
-
 def main():
     """
     Main application function.
@@ -491,9 +489,7 @@ def main():
                     
                     # Confidence Bar
                     
-                    # Detailed Metrics
-                    
-                    
+                    # Detailed Metrics         
         elif analyze_btn and not user_input.strip():
             st.warning("⚠️ Please enter some text to analyze!")
 
